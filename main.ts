@@ -1,8 +1,4 @@
-//  2nd comment
-let mySprite = sprites.create(assets.image`
-    myDuckImage
-    `, SpriteKind.Player)
+// 2nd comment
+let mySprite = sprites.create(assets.image`myDuckImage`, SpriteKind.Player)
 controller.moveSprite(mySprite)
-tiles.setCurrentTilemap(tilemap`
-    level1
-    `)
+tiles.setCurrentTilemap(tilemap`level1`)
